@@ -49,7 +49,7 @@ setup(
     tests_require=test_requirements,
     url="https://github.com/daniel-balosh/tuul",
     # fmt: off
-    version='0.12.0',
+    version='0.13.0',
     # fmt: on
     zip_safe=False,
 )
