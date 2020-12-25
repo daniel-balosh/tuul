@@ -2,6 +2,8 @@
 
 __author__ = """Daniel Balosh"""
 __email__ = "no@gmail.com"
-__version__ = "0.9.0"
+# fmt: off
+__version__ = '0.12.0'
+# fmt: on
 
 from tuul import one_line_logger
