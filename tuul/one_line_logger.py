@@ -72,4 +72,5 @@ def get_logger(logging_level=logging.DEBUG, aws_logging_level=logging.WARNING):
     if logger.hasHandlers():
         if logger.handlers[0]:
             logger.handlers[0].setFormatter(f)
+    logger.propagate = False
     return logger
