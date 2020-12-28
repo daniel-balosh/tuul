@@ -1,4 +1,4 @@
-# Tull - python toolkit
+# tuul - python tuulkit
 
 Working, well tested utilities to be shared, and duplicated over and over again.
 
@@ -10,7 +10,8 @@ Supporting AWS Lambda logging.
 
 100% coverage
 
-General usage:
+### General usage:
+
 ```
 import tuul
 _logger = tuul.one_line_logger.get_logger()
@@ -23,7 +24,8 @@ _logger.debug("no print would be made")
 _logger.info("this would be printed")
 ```
 
-Specific AWS loggers:
+### Specific AWS loggers:
+
 ```
 import tuul
 _logger = tuul.one_line_logger.get_logger()
